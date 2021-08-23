@@ -61,27 +61,11 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="13" x="0.57125" y="0.532258064516129" uiLastX_Normal="240"
-          uiLastY_Normal="385" uiopen_Normal="0">
-    <PLUGIN name="PlainEQ" format="VST3" category="Fx" manufacturer="yourcompany"
-            version="1.0.0" file="E:\VSTplugins\PlainEQ.vst3" uid="e956c124"
-            isInstrument="0" fileTime="17b7342fc87" infoUpdateTime="17b734809da"
-            numInputs="2" numOutputs="2" isShell="0"/>
-    <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
-    <LAYOUT>
-      <INPUTS>
-        <BUS index="0" layout="L R"/>
-      </INPUTS>
-      <OUTPUTS>
-        <BUS index="0" layout="L R"/>
-      </OUTPUTS>
-    </LAYOUT>
-  </FILTER>
   <FILTER uid="14" x="0.56375" y="0.375" uiLastX_Normal="406" uiLastY_Normal="288"
           uiopen_Normal="1">
     <PLUGIN name="vstPlayer" format="VST3" category="Instrument|Synth" manufacturer="yourcompany"
             version="2.3.4" file="E:\VSTplugins\vstPlayer.vst3" uid="ee63cfc"
-            isInstrument="1" fileTime="17b7336f618" infoUpdateTime="17b734809da"
+            isInstrument="1" fileTime="17b7336f618" infoUpdateTime="17b73591f20"
             numInputs="0" numOutputs="0" isShell="0"/>
     <STATE>746.VMjLgDt....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9PyM03hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPjc1YTR5AkaA4hKtfjYikWTGIlKHYmKD4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAIGZUMTRSgDaC4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcCE1YMczXlQ0UZc0ZFkkdmY0SnY1PLYGRBgDLqYjTqsVLY4VTW8DZTMDS1gjPHY2cVgEM2YkV4EkLSQGLogzcHIDR3UkQhsVQFMFNHIESn4BZiU2cVM1bUY0SnQTZKYGRBgjcEY0X4UkQYgCRBwDZyLzS1cmUXQycVoUdQ01S2fkUZIWUFgDcEYUXqASZHUzaCcUSqcTT0MVagIGNVgkZMczUVsFQUEzcTI0TvPDRPUjdQEDMDgzQUUkTTUjZTYlKEMUPqUTUHkDLSU0XDIkYxAyTFkEURMzZTAESvr1RyEjLLg1Mn8zM2HjXxUjUjI2ZwHldzLzS0YmUXkWTs8jKt3hKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UX4BQP4hPqcjXm0jLh4BQP4xPt.0Qt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVP77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
     <LAYOUT>
@@ -93,8 +77,24 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <CONNECTION srcFilter="13" srcChannel="0" dstFilter="10" dstChannel="0"/>
-  <CONNECTION srcFilter="13" srcChannel="1" dstFilter="10" dstChannel="1"/>
-  <CONNECTION srcFilter="14" srcChannel="0" dstFilter="13" dstChannel="0"/>
-  <CONNECTION srcFilter="14" srcChannel="1" dstFilter="13" dstChannel="1"/>
+  <FILTER uid="15" x="0.4925" y="0.6471774193548387" uiLastX_Normal="162"
+          uiLastY_Normal="233" uiopen_Normal="1">
+    <PLUGIN name="PlainEQ" format="VST3" category="Fx" manufacturer="yourcompany"
+            version="1.0.0" file="E:\git\PlainEQ\Builds\VisualStudio2019\x64\Debug\VST3\PlainEQ.vst3"
+            uid="e956c124" isInstrument="0" fileTime="17b7342fc87" infoUpdateTime="17b73591f20"
+            numInputs="2" numOutputs="2" isShell="0"/>
+    <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <CONNECTION srcFilter="14" srcChannel="0" dstFilter="15" dstChannel="0"/>
+  <CONNECTION srcFilter="14" srcChannel="1" dstFilter="15" dstChannel="1"/>
+  <CONNECTION srcFilter="15" srcChannel="0" dstFilter="10" dstChannel="0"/>
+  <CONNECTION srcFilter="15" srcChannel="1" dstFilter="10" dstChannel="1"/>
 </FILTERGRAPH>
